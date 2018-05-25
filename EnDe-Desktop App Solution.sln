@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27703.2000
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ende forms app", "ende forms app.csproj", "{20BE1348-81DD-4C55-976B-8894ED7BC672}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ende forms app Project", "ende forms app Project.csproj", "{20BE1348-81DD-4C55-976B-8894ED7BC672}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
