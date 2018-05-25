@@ -1,7 +1,4 @@
-﻿/*
-    3rd Party Open Refference Library
- */
-using System.Security.Cryptography;
+﻿using System.Security.Cryptography;
 using System.IO;
 using System;
 using System.Text;
