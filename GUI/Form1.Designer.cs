@@ -44,15 +44,18 @@
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.label6 = new System.Windows.Forms.Label();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.label7 = new System.Windows.Forms.Label();
+            this.groupBox3 = new System.Windows.Forms.GroupBox();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
+            this.groupBox3.SuspendLayout();
             this.SuspendLayout();
             // 
             // _key_textBox
             // 
-            this._key_textBox.Location = new System.Drawing.Point(397, 24);
+            this._key_textBox.Location = new System.Drawing.Point(278, 31);
             this._key_textBox.Name = "_key_textBox";
-            this._key_textBox.Size = new System.Drawing.Size(135, 20);
+            this._key_textBox.Size = new System.Drawing.Size(239, 20);
             this._key_textBox.TabIndex = 0;
             // 
             // Encrypt_PlainText_textBox
@@ -118,11 +121,11 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(338, 27);
+            this.label3.Location = new System.Drawing.Point(244, 34);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(53, 13);
+            this.label3.Size = new System.Drawing.Size(28, 13);
             this.label3.TabIndex = 8;
-            this.label3.Text = "New Key:";
+            this.label3.Text = "Key:";
             // 
             // label4
             // 
@@ -157,7 +160,8 @@
             this.groupBox1.Controls.Add(this.Encrypt_button);
             this.groupBox1.Controls.Add(this.label4);
             this.groupBox1.Controls.Add(this.Encrypt_EncryptedText_textBox);
-            this.groupBox1.Location = new System.Drawing.Point(12, 58);
+            this.groupBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupBox1.Location = new System.Drawing.Point(12, 145);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(536, 108);
             this.groupBox1.TabIndex = 12;
@@ -171,7 +175,7 @@
             this.groupBox2.Controls.Add(this.Decrypt_PlainText_textBox);
             this.groupBox2.Controls.Add(this.Decrypt_button);
             this.groupBox2.Controls.Add(this.label5);
-            this.groupBox2.Location = new System.Drawing.Point(12, 191);
+            this.groupBox2.Location = new System.Drawing.Point(12, 259);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Size = new System.Drawing.Size(536, 121);
             this.groupBox2.TabIndex = 13;
@@ -191,23 +195,45 @@
             // comboBox1
             // 
             this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(175, 24);
+            this.comboBox1.Location = new System.Drawing.Point(69, 31);
             this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(121, 21);
+            this.comboBox1.Size = new System.Drawing.Size(125, 21);
             this.comboBox1.TabIndex = 15;
             this.comboBox1.SelectionChangeCommitted += new System.EventHandler(this.comboBox1_SelectionChangeCommitted);
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Location = new System.Drawing.Point(6, 34);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(60, 13);
+            this.label7.TabIndex = 16;
+            this.label7.Text = "App Name:";
+            // 
+            // groupBox3
+            // 
+            this.groupBox3.BackColor = System.Drawing.SystemColors.Control;
+            this.groupBox3.Controls.Add(this.label7);
+            this.groupBox3.Controls.Add(this.comboBox1);
+            this.groupBox3.Controls.Add(this.label3);
+            this.groupBox3.Controls.Add(this._key_textBox);
+            this.groupBox3.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.groupBox3.Location = new System.Drawing.Point(12, 52);
+            this.groupBox3.Name = "groupBox3";
+            this.groupBox3.Size = new System.Drawing.Size(536, 73);
+            this.groupBox3.TabIndex = 17;
+            this.groupBox3.TabStop = false;
+            this.groupBox3.Text = "Settings";
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(560, 331);
-            this.Controls.Add(this.comboBox1);
+            this.ClientSize = new System.Drawing.Size(560, 392);
+            this.Controls.Add(this.groupBox3);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this._key_textBox);
             this.Name = "Form1";
             this.Text = "EnDe App - Rijndael\'s algorithm encryption & decryption App";
             this.Load += new System.EventHandler(this.Form1_Load);
@@ -215,6 +241,8 @@
             this.groupBox1.PerformLayout();
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
+            this.groupBox3.ResumeLayout(false);
+            this.groupBox3.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -238,6 +266,8 @@
         private System.Windows.Forms.GroupBox groupBox2;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.GroupBox groupBox3;
     }
 }
 
