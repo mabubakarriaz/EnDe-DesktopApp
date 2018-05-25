@@ -3,7 +3,7 @@ using System.IO;
 using System;
 using System.Text;
 
-namespace Com.Mindbridge.EndeApp.Security
+namespace EndeApp.Library
 {
     public partial class Encryption
     {

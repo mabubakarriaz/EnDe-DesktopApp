@@ -7,8 +7,8 @@
     <ProjectGuid>{20BE1348-81DD-4C55-976B-8894ED7BC672}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Com.Mindbridge.EndeApp</RootNamespace>
-    <AssemblyName>Com.Mindbridge.EndeApp472 v2.0</AssemblyName>
+    <RootNamespace>EndeApp</RootNamespace>
+    <AssemblyName>EndeApp472 v2.0</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -34,7 +34,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>Com.Mindbridge.EndeApp.Program</StartupObject>
+    <StartupObject>EndeApp.Program</StartupObject>
   </PropertyGroup>
   <PropertyGroup>
     <ApplicationIcon>Resources\EnDe-App.ico</ApplicationIcon>
@@ -62,7 +62,7 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Security\Encryption.cs" />
+    <Compile Include="Library\Encryption.cs" />
     <EmbeddedResource Include="GUI\Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>

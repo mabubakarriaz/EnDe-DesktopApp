@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Com.Mindbridge.EndeApp.Entity
+namespace EndeApp.Entity
 {
     /// <summary>
     /// 

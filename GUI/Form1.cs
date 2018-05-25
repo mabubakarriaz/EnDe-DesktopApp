@@ -1,5 +1,5 @@
-﻿using Com.Mindbridge.EndeApp.Entity;
-using Com.Mindbridge.EndeApp.Security;
+﻿using EndeApp.Entity;
+using EndeApp.Library;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -10,7 +10,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Com.Mindbridge.EndeApp.GUI
+namespace EndeApp.GUI
 {
     public partial class Form1 : Form
     {

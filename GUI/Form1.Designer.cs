@@ -1,4 +1,4 @@
-﻿namespace Com.Mindbridge.EndeApp.GUI
+﻿namespace EndeApp.GUI
 {
     partial class Form1
     {
