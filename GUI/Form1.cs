@@ -42,5 +42,11 @@ namespace Com.Mindbridge.EndeApp.GUI
         {
             _key_textBox.Text = comboBox1.SelectedValue.ToString();
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            Icon icon = Icon.ExtractAssociatedIcon("Resources/EnDe-App.ico");
+            this.Icon = icon;
+        }
     }
 }
