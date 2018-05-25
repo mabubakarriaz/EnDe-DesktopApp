@@ -20,7 +20,9 @@ namespace Com.Mindbridge.EndeApp.GUI
 
             // Hard code list values
             BindingList<Data> _comboItems = new BindingList<Data>();
-            _comboItems.Add(new Data { Name = "MBPortal", Key = "MBPortal" });
+            _comboItems.Add(new Data { Name = "My App Name", Key = "MySecretKey" });
+            _comboItems.Add(new Data { Name = "App2", Key = "MyLongComplexKey.123" });
+            _comboItems.Add(new Data { Name = "App3", Key = "QfdfgWE<>LPO{><MM(*&$%%" });
 
             comboBox1.DataSource = _comboItems;
             comboBox1.DisplayMember = "Name";
