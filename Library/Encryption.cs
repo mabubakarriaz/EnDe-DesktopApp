@@ -1,6 +1,6 @@
-﻿using System.Security.Cryptography;
+﻿using System;
 using System.IO;
-using System;
+using System.Security.Cryptography;
 using System.Text;
 
 namespace EndeApp.Library

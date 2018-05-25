@@ -1,13 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace EndeApp.Entity
+﻿namespace EndeApp.Entity
 {
     /// <summary>
-    /// 
+    /// Data Entity used for comboBox List
     /// </summary>
     public class Data
     {
