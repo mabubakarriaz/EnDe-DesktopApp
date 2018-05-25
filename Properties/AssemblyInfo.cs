@@ -5,8 +5,8 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("Encryption & Decryption App")]
-[assembly: AssemblyDescription("Rijndael's algorithm encryption & decryption App")]
+[assembly: AssemblyTitle("Text Encryption & Decryption App")]
+[assembly: AssemblyDescription("Simple C# Winforms app, Rijndael's algorithm text encryption & decryption")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Mindbridge")]
 [assembly: AssemblyProduct("EnDe App")]
