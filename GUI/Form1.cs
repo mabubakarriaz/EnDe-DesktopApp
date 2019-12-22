@@ -6,6 +6,7 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Security.Cryptography;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -70,5 +71,13 @@ namespace EndeApp.GUI
             // Assign icon to the icon property of the form
             this.Icon = icon;
         }
+
+        private void button1_Click(object sender,EventArgs e)
+        {
+            txtOutput.Text = Hash.GetMD5Hash(txtInput.Text);
+        }
+
+
+       
     }
 }
